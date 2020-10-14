@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/mateusvieites/mateusvieites.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HardszVick</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
 
-### Markdown
+    <header id="header">
+        <div id="avatar"><a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/avatar.png"
+                    alt="aa"></a></div>
+    </header>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div id=menuFixo>
+        <a href="https://github.com/mateusvieites" target=”_blank”><img src="./imgs/GitHub-Mark.png"></a>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <main>
+        <div id="hotbar">
+                <ul>
+                    <li><a href="#SobreMim">Sobre mim</a></li>
+                    <li><a href="#Linguagens">Linguagens</a></li>
+                    <li><a href="#edicao">Ferramentas de edição</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+        <div id="SobreMim">
+            <div class="tituloMain">Sobre mim:</div>
+            <div class="textoSobreMim"><span>Olá, me chamo Mateus Vieites faço ciências da computação e sou um
+                    entusiasta da área de computação</span></div>
+        </div>
 
-- Bulleted
-- List
+        <div id="Linguagens">
+            <div class="tituloMain">Linguagens:</div>
+            <div class="icons">
+                <img src="./imgs/java.webp" alt="Java" title="Java"><img src="./imgs/javascript.svg" alt="Javascript"
+                    title="Javascript">
+                <img src="./imgs/python.webp" alt="Python" title="Python"><img src="./imgs/html.png" alt="HTML 5"
+                    title="HTML 5">
+            </div>
+        </div>
 
-1. Numbered
-2. List
+        <div id="edicao">
+            <div class="tituloMain">Ferramentas de edição:</div>
+            <div class="icons">
+                <img src="./imgs/photoshop.png" alt="PhotoShop" title="PhotoShop"><img src="./imgs/SonyVegas.png"
+                    alt="SonyVegas" title="Sony Vegas"><img src="./imgs/aftereffects.jpg" alt="After effects"
+                    title="After effects">
+            </div>
+        </div>
 
-**Bold** and _Italic_ and `Code` text
+        <div id="contato">
+            <div class="tituloMain">Contatos:</div>
+            <div class="textoSobreMim">meuemail@gmail.com</div>
+        </div>
+    </main>
 
-[Link](url) and ![Image](src)
-```
+    <footer id="footer">
+        <div id="direitos">© Todos os direitos reservados</div>
+        <div></div>
+    </footer>
+</body>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mateusvieites/mateusvieites.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
